@@ -7,6 +7,14 @@ import Academic from './Pages/Academic';
 import ExtraMe from './Pages/ExtraMe';
 import Articles from './Pages/Articles';
 import Footer from './Components/Footer/footer';
+import ReactDom from 'react-dom/client';
+
+const root= ReactDom.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App/>
+  </React.StrictMode>
+);
 
 function App() {
   
