@@ -1,0 +1,128 @@
+.extraDiv{
+    margin-top: 10%;
+    justify-items: center;
+}
+
+p{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+.pcard{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 90%;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    justify-content: space-between;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+}
+
+button{
+    border-radius: 3% 3% 3% 3%;
+    border: 0;
+    background-color: #f3eaaf;    
+}
+
+button:hover{
+    scale: 1.1;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.divbutton{
+    width: 100%;
+    height: 140px;
+    min-height: 140px;
+    max-height: 140px;
+    align-content: center;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    /*margin-top: 5%;*/
+    margin-bottom: 5%;
+}
+
+.divImage{
+    height: 100px;
+    min-height: 100px;
+    max-height: 100px;
+    margin-bottom: 5%;
+
+}
+
+.divPara{
+    max-height: 150px;
+    min-height: 150px;
+}
+
+.in{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 95%;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    justify-content: space-between;     
+    /*margin-top: 7%;*/
+}
+
+.pBottom{
+    font-size: 100%;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+.ToMore:hover{
+    color: blue;
+    cursor: pointer;
+
+}
+
+td{
+    padding-left: 3%;
+    width: 33%;
+}
+
+.marginTable{
+    margin-top: 2%;
+}
+
+.link{
+    color: blue; 
+}
+
+.link:hover{
+    cursor: pointer;
+}
+
+.forMargin{
+    margin-bottom: 6rem;
+}
+
+@media (max-width: 768px) {
+    .in{
+        font-size: 80%;
+    }
+
+    .divPara{
+        max-height: 200px;
+        min-height: 150px;
+        margin-top: -5rem;
+    }
+
+    .pcard{
+        font-size: 60%;
+    }
+  }

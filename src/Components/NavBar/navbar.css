@@ -1,0 +1,94 @@
+/* Navbar container */
+nav {
+    background-color: #ffca3a;
+    overflow: hidden;
+    transition: background-color 0.3s ease-in-out;
+    position: fixed;
+    width: 100%;
+    top: 2%;
+    left: 0;
+    z-index: 1000;
+    align-items: center;
+    padding: auto;
+  }
+
+  nav.scrolled {
+    background-color: white;
+}
+  
+  /* Navbar links */
+  nav ul {
+    list-style-type: none;
+    margin-right: 2%;
+    padding: auto;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  /* Navbar items */
+  nav ul li {
+    float: right;
+  }
+  
+  /* Navbar links */
+  nav ul li a {
+    display: block;
+    color: black;
+    font-size: large;
+    font-family: Verdana;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    
+  }
+  
+  /* Change color on hover */
+  nav ul li a:hover {
+    background-color: #1f3f49;
+    color: white;
+  }
+  
+
+
+  nav .nav-brand {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 40px;
+    color: black;
+    justify-content: flex-start;
+    padding-left:2%;
+    margin-top: 2%;
+    margin-bottom: -2.1cm;
+    
+  }
+
+  nav ul li .active {
+    background-color: black;
+    color: white;
+  }
+  /* padding-top: -1.5cm;
+    padding-bottom: 0.3%;
+    
+   
+    */
+  
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: row;
+        align-items: flex-start;
+      }
+    
+      nav ul {
+        flex-direction: row;
+      }
+    
+      nav ul li {
+        float: none;
+      }
+
+      nav .nav-brand{
+        margin-bottom: -10px;
+        align-items: baseline;
+      }
+    }

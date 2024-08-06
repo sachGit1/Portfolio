@@ -1,0 +1,35 @@
+.extraDiv{
+    margin-top: 10%;
+    justify-items: center;
+}
+
+p{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+.h11{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.volumetrics{
+    float: right;
+    width: 25%;
+    margin-left: 5%;
+    margin-top: 0rem;
+}
+
+.flask{
+    float: left;
+    width: 25%;
+    margin-right: 5%;
+    margin-top: 0rem;
+    margin-bottom: -0.5rem;
+}

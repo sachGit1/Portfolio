@@ -1,0 +1,68 @@
+.extraDiv{
+    justify-items: center;
+    
+}
+
+.p {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 35px;
+    color: black;
+    max-width: 80%;
+    margin-top: 5%;
+    
+}
+
+.table1{
+    width:70%;
+    margin-top: 1rem;
+}
+
+.set1{
+    width: 100%;
+    
+}
+
+td{
+   
+   padding-right: 3%;
+   
+   padding-top: -10rem;
+
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.group{
+    float: right;
+    width: 20%;
+    margin-left: 5%;
+    margin-top: 0rem;
+}
+
+.middlePara{
+
+    margin-top: -20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60%;
+}
+
+@media (max-width: 768px) {
+    .extraDiv{
+        padding-top: 20%;
+    }
+
+  }
